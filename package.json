@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Andrew Mead",
   "license": "MIT",
+  "engines": {
+    "node": "10.15.x"
+  },
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
