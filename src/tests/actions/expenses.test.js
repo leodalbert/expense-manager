@@ -63,7 +63,7 @@ test('should edit expense from firebase', (done) => {
   const id = expenses[2].id
   const updates = {
     description: 'MasterCard',
-    amount: 101000,
+    amount: 101000, 
     note: 'test',
     createdAt: 50000000
   }
